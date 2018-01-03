@@ -1,10 +1,9 @@
 from setuptools import setup, find_packages
 
-import easyutils
 
 setup(
         name='easyutils',
-        version=easyutils.__version__,
+        version='0.1',
         packages=find_packages(),
         description='A utility for China Stock',
         author='shidenggui',
